@@ -7,7 +7,7 @@ int main( int argc, char** argv ) {
   image = cv::imread("sample.jpeg" , CV_LOAD_IMAGE_COLOR);
 
   if(! image.data ) {
-      std::cout <<  "Could not open  the image" << std::endl ;
+      std::cout <<  "Could not open or find the image" << std::endl ;
       return -1;
     }
 
